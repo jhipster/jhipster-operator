@@ -1,0 +1,10 @@
+apiVersion: "alpha.k8s.jhipster.tech/v1"
+kind: MicroService
+metadata:
+  name: invoice
+  labels: 
+     app: my-jhipster-app
+spec:
+  serviceName: "invoice"
+  serviceVersion: "1.0"
+  
